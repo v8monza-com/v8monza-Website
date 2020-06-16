@@ -1,0 +1,11 @@
+extdgts can extract inidividual digits from a image strip created with
+mkstrip. sometimes it might be necessary to edit some digit image.
+
+usage: extdgts strip.gif
+
+it will extract the individual digit images from strip.gif. Note: it does not
+check existence of file with the same name, so be careful!
+
+-- 
+muquit
+oct-20-1997

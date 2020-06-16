@@ -1,0 +1,915 @@
+<html>
+
+<head>
+<title>Building the V8 H-Body 5-Lug Conversion Parts List</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Bob Gumm</o:Author>
+  <o:LastAuthor>Bob Gumm</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>9</o:TotalTime>
+  <o:Created>1999-09-30T21:27:00Z</o:Created>
+  <o:LastSaved>1999-09-30T21:27:00Z</o:LastSaved>
+  <o:Pages>3</o:Pages>
+  <o:Words>794</o:Words>
+  <o:Characters>4529</o:Characters>
+  <o:Lines>37</o:Lines>
+  <o:Paragraphs>9</o:Paragraphs>
+  <o:CharactersWithSpaces>5561</o:CharactersWithSpaces>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DrawingGridHorizontalSpacing>6 pt</w:DrawingGridHorizontalSpacing>
+  <w:DrawingGridVerticalSpacing>6 pt</w:DrawingGridVerticalSpacing>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:WW6BorderRules/>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:AutoSpaceLikeWord95/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+  </w:Compatibility>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+h2
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+h3
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	border:none;
+	mso-border-alt:solid windowtext 1.5pt;
+	padding:0in;
+	mso-padding-alt:1.0pt 1.0pt 1.0pt 1.0pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	font-style:italic;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	tab-stops:.5in 1.0in 1.5in 2.0in 2.5in 3.0in 3.5in 285.0pt;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	border:none;
+	mso-border-alt:solid windowtext 1.5pt;
+	padding:0in;
+	mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt;
+	font-size:20.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:.2in 1.4in .5in 1.4in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+@page Section2
+	{size:8.5in 11.0in;
+	margin:.2in 1.4in .5in 1.4in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-columns:2 even .2in;
+	mso-paper-source:0;}
+div.Section2
+	{page:Section2;}
+@page Section3
+	{size:8.5in 11.0in;
+	margin:.2in 1.4in .5in 1.4in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section3
+	{page:Section3;}
+@page Section4
+	{size:8.5in 11.0in;
+	margin:.2in 1.4in .5in 1.4in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-columns:2 even .2in;
+	mso-paper-source:0;}
+div.Section4
+	{page:Section4;}
+@page Section5
+	{size:8.5in 11.0in;
+	margin:.2in 1.4in .5in 1.4in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section5
+	{page:Section5;}
+@page Section6
+	{size:8.5in 11.0in;
+	margin:.2in 1.4in .5in 1.4in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-columns:2 even .2in;
+	mso-paper-source:0;}
+div.Section6
+	{page:Section6;}
+@page Section7
+	{size:8.5in 11.0in;
+	margin:.2in 1.4in .5in 1.4in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section7
+	{page:Section7;}
+@page Section8
+	{size:8.5in 11.0in;
+	margin:.2in 1.4in .5in 1.4in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-columns:2 even .2in;
+	mso-paper-source:0;}
+div.Section8
+	{page:Section8;}
+@page Section9
+	{size:8.5in 11.0in;
+	margin:.2in 1.4in .5in 1.4in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section9
+	{page:Section9;}
+@page Section10
+	{size:8.5in 11.0in;
+	margin:.2in 1.4in .5in 1.4in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-columns:2 even .2in;
+	mso-paper-source:0;}
+div.Section10
+	{page:Section10;}
+@page Section11
+	{size:8.5in 11.0in;
+	margin:.2in 1.4in .5in 1.4in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section11
+	{page:Section11;}
+@page Section12
+	{size:8.5in 11.0in;
+	margin:.2in 1.4in .5in 1.4in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-columns:2 even .2in;
+	mso-paper-source:0;}
+div.Section12
+	{page:Section12;}
+@page Section13
+	{size:8.5in 11.0in;
+	margin:.2in 1.4in .5in 1.4in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section13
+	{page:Section13;}
+@page Section14
+	{size:8.5in 11.0in;
+	margin:.2in 1.4in .5in 1.4in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-columns:2 even .2in;
+	mso-paper-source:0;}
+div.Section14
+	{page:Section14;}
+-->
+</style>
+</head>
+
+<BODY BACKGROUND="images/BluPrint.gif" TOPMARGIN="0" LEFTMARGIN="15" BGPROPERTIES=FIXED BGCOLOR="#00D5FF" TEXT="#000000" LINK="#0000FF" VLINK="#FF00FF" ALINK="#FFFFFF">
+
+<div class=Section1>
+
+<div style='border:solid windowtext 1.5pt;padding:1.0pt 1.0pt 1.0pt 1.0pt'>
+
+<p class=MsoBodyText2 style='border:none;mso-border-alt:solid windowtext 1.5pt;
+padding:0in;mso-padding-alt:1.0pt 1.0pt 1.0pt 1.0pt'>Suspension Conversion
+Parts List</p>
+
+<p class=MsoNormal align=center style='text-align:center;border:none;
+mso-border-alt:solid windowtext 1.5pt;padding:0in;mso-padding-alt:1.0pt 1.0pt 1.0pt 1.0pt'>Copyright
+December 21, 1998</p>
+
+<p class=MsoNormal align=center style='text-align:center;border:none;
+mso-border-alt:solid windowtext 1.5pt;padding:0in;mso-padding-alt:1.0pt 1.0pt 1.0pt 1.0pt'>&quot;<b><A HREF="http://www.v8monza.com" TARGET="_top">Building the V8 H-Body</A></b>&quot;</p>
+
+<h3>By Bob Gumm</h3>
+
+<p class=MsoNormal align=center style='text-align:center;border:none;
+mso-border-alt:solid windowtext 1.5pt;padding:0in;mso-padding-alt:1.0pt 1.0pt 1.0pt 1.0pt'>(at
+www.v8monza.com)</p>
+
+</div>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h2>Disclaimer</h2>
+
+<p class=MsoNormal style='text-indent:.2in'>I will not be liable or responsible
+in any way for any damages incurred as a result of these modifications to
+person, persons or property.<span style="mso-spacerun: yes">  </span>Whenever
+working on vehicles, use safety equipment such as jackstands, goggles, gloves,
+etc..<span style="mso-spacerun: yes">  </span>Also, when working on the front
+suspension, beware of the coilsprings, they are very dangerous and can release
+with a lot of force that could result in death or serious injury.<span
+style="mso-spacerun: yes">  </span>Take this warning and just be careful.<span
+style="mso-spacerun: yes">  </span>These modifications can be very frustrating,
+so have some patience.</p>
+
+<p class=MsoNormal style='text-indent:.2in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-indent:.2in'>Below is a list of parts that can
+be obtained from salavage yards to convert the General Motors H-body cars to
+5-lug suspensions.<span style="mso-spacerun: yes">  </span>The lists are by
+part, what vehicles to get them from and their years.<span style="mso-spacerun:
+yes">  </span>The list starts with the front suspension, and ends with the rear
+suspension.<span style="mso-spacerun: yes">  </span>The list is not
+all-inclusive.<span style="mso-spacerun: yes">  </span>Some aftermarket parts
+are required to mount the front suspension parts to the factory control
+arms.<span style="mso-spacerun: yes">  </span>Also, some modifications are
+required to various components to facilitate the use of these parts.<span
+style="mso-spacerun: yes">  </span>Remember that when obtaining used parts, to
+inspect them for defects.<span style="mso-spacerun: yes">  </span>If you do not
+feel qualified to do so, have them inspected by a professional mechanic.<span
+style="mso-spacerun: yes">  </span>For more information, go to my website and
+read everything!</p>
+
+<p class=MsoNormal style='text-indent:.2in'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-indent:.2in'>Thanks to <b>Salvage GM Parts</b>
+of Valdosta Georgia and Rich Foster for all of their help in the research and
+actual parts tests involved for these modifications and this extensive
+FAQ.<span style="mso-spacerun: yes">  </span>If you need some of these parts
+and can’t find them, call them at <b>1-800-848-4635</b> and tell them Bob Gumm
+sent you.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b><u>FRONT SUSPENSION</u></b> (I have performed
+this modification)</p>
+
+<br>
+<!--====================================================================-->
+<!--            		New!						-->
+<!--====================================================================-->
+<FONT STYLE="FONT-SIZE:14pt;">
+<B><I><EM>
+See the "NEW" <A href="faq-fsus-S10_front-walk-thru.htm" TARGET="New">5-Lug Front Suspension Step-by-Step Guide</A>!
+</EM></I></B>
+</FONT>
+<br>
+at <A href="http://www.v8monza.com" TARGET="New">http://www.v8monza.com</A>
+
+<br>&nbsp;
+<p class=MsoNormal><span style="mso-spacerun: yes">  </span>Remember,
+ball-joint adapters, ball-joint adapter sleeves, S10 ball-joints, and some welding may be required
+for these modifications, depending on the method you choose to install the G-Body/S10/S15/Blazer parts.<span style="mso-spacerun: yes">  </span>If you choose to use the S10 ball-joints, you'll need to
+weld an adapter sleeve for the larger lower Chevy S-10 ball-joints into the lower control
+arms and enlarge the upper control arm ball-joint hole and weld the old rivet holes close and drill new mount holes.<span style="mso-spacerun: yes">  </span>Also, when picking rotors for the
+front-end I suggest using the later (metric) versions.<span
+style="mso-spacerun: yes">  </span>The reason why is because the axles are only
+available in metric and the metric studs are larger than the standard
+studs.<span style="mso-spacerun: yes">  </span>By using all metric studs you ensure
+less confusion and my guess would be that they are stronger by virtue of the
+fact that they are larger (metric size 12X1.5 lug studs and nuts).<span style="mso-spacerun: yes">  </span>However, if
+you've got the money, you could just replace all the studs with the type of
+your choice (a must for race vehicles).</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><b><u>REAR SUSPENSION</u></b> (This mod works, I know
+because I've done it.)</p>
+
+<p class=MsoNormal><span style="mso-spacerun: yes">  </span>The S10 axles are
+1/16th inch shorter, so this shortness may cause the brake drums to rub against
+the rear brake back plates/dust covers.<span style="mso-spacerun: yes"> 
+</span>If yours rub (mine didn't), remove 1/16th inch from the edge of the back
+plates.<span style="mso-spacerun: yes">  </span>To do this, scribe around the
+edge of the back plates 1/16th inch in from the edge.<span style="mso-spacerun:
+yes">  </span>Then using a handheld grinder, remove the excess metal to the
+scribe mark and file or sand the edge smooth.<span style="mso-spacerun: yes"> 
+</span>All the axles have metric studs, so make sure you plan ahead and get
+some lug nuts to match the studs or get some standard studs to install.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<div style='border:solid windowtext 1.5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt'>
+
+<p class=MsoNormal align=center style='text-align:center;border:none;
+mso-border-alt:solid windowtext 1.5pt;padding:0in;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><b>Spindles
+(for 5-Lug conversion)<o:p></o:p></b></p>
+
+</div>
+
+</div>
+
+<b><span style='font-size:10.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:auto;
+mso-break-type:section-break'>
+</span></b>
+
+<div class=Section2>
+
+<h1>Make<span style='mso-tab-count:2'>                      </span>Year<span
+style='mso-tab-count:1'>       </span>Description</h1>
+
+<p class=MsoNormal>CENTURY<span style='mso-tab-count:1'>             </span>79</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>80-81</p>
+
+<p class=MsoNormal>S10 S15<span style='mso-tab-count:2'>                  </span>82</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>83-97</p>
+
+<p class=MsoNormal>S10BLA<span style='mso-tab-count:2'>                 </span>83-97</p>
+
+<p class=MsoNormal>GMCSPR<span style='mso-tab-count:1'>               </span>79</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>80-87</p>
+
+<p class=MsoNormal>GPRIX<span style='mso-tab-count:2'>                    </span>79</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>80-87</p>
+
+<p class=MsoNormal>MALIBU<span style='mso-tab-count:1'>               </span>79</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>80-87</p>
+
+<p class=MsoNormal>MONTE<span style='mso-tab-count:2'>                 </span>79</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>80-88</p>
+
+<p class=MsoNormal>CUTLASS<span style='mso-tab-count:1'>             </span>79</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>80-87</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>88</p>
+
+<p class=MsoNormal>PONTIA<span style='mso-tab-count:1'>                </span>82-86</p>
+
+<p class=MsoNormal>LEMANS<span style='mso-tab-count:1'>               </span>79</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>80-81</p>
+
+<p class=MsoNormal>REGAL<span style='mso-tab-count:2'>                   </span>79</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>80-87</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+</div>
+
+<b><span style='font-size:10.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:auto;
+mso-break-type:section-break'>
+</span></b>
+
+<div class=Section3><br clear=all style='page-break-before:always'>
+
+<div style='border:solid windowtext 1.5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt'>
+
+<p class=MsoBodyText style='border:none;mso-border-alt:solid windowtext 1.5pt;
+padding:0in;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><b>Rotor (5-Lug Standard
+Studs) <o:p></o:p></b></p>
+
+</div>
+
+</div>
+
+<b><span style='font-size:10.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:auto;
+mso-break-type:section-break'>
+</span></b>
+
+<div class=Section4>
+
+<p class=MsoBodyText align=left style='text-align:left'><b>Make<span
+style='mso-tab-count:2'>                      </span>Year<span
+style='mso-tab-count:1'>       </span>Description<o:p></o:p></b></p>
+
+<p class=MsoNormal>CENTURY<span style='mso-tab-count:1'>             </span>79-81</p>
+
+<p class=MsoNormal>GMCSPR<span style='mso-tab-count:1'>               </span>79-81</p>
+
+<p class=MsoNormal>GPRIX<span style='mso-tab-count:2'>                    </span>79-81</p>
+
+<p class=MsoNormal>MALIBU<span style='mso-tab-count:1'>               </span>79-81</p>
+
+<p class=MsoNormal>MONTE<span style='mso-tab-count:2'>                 </span>79-81</p>
+
+<p class=MsoNormal>CUTLAS<span style='mso-tab-count:1'>                </span>79-81</p>
+
+<p class=MsoNormal>LEMANS<span style='mso-tab-count:1'>               </span>79-81</p>
+
+<p class=MsoNormal>REGAL<span style='mso-tab-count:2'>                   </span>79-81</p>
+
+</div>
+
+<b><span style='font-size:10.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:auto;
+mso-break-type:section-break'>
+</span></b>
+
+<div class=Section5>
+
+<div style='border:solid windowtext 1.5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt'>
+
+<p class=MsoBodyText style='border:none;mso-border-alt:solid windowtext 1.5pt;
+padding:0in;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><b>Rotor (5-Lug Metric
+Studs)</b></p>
+
+</div>
+
+</div>
+
+<b><span style='font-size:10.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:auto;
+mso-break-type:section-break'>
+</span></b>
+
+<div class=Section6>
+
+<h1>Make<span style='mso-tab-count:1'>      </span>Year<span style='mso-tab-count:
+1'>       </span>Description</h1>
+
+<p class=MsoNormal>CAMARO<span style='mso-tab-count:1'>             </span>82-97</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>88-92<span
+style='mso-tab-count:1'>       </span>10-1/2&quot;<span style='mso-tab-count:
+2'>                   </span>rotor</p>
+
+<p class=MsoNormal>S10 S15<span style='mso-tab-count:2'>                  </span>82</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>83-93<span
+style='mso-tab-count:1'>       </span>4X2</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>84-95<span
+style='mso-tab-count:1'>       </span>VIN mdl<span style='mso-tab-count:1'>  </span>&quot;S&quot;<span
+style='mso-tab-count:1'>          </span>(4X2), 4-134 (2.2L)</p>
+
+<p class=MsoNormal>FIREBI<span style='mso-tab-count:2'>                   </span>82-87</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>88-92<span
+style='mso-tab-count:1'>       </span>10-1/2&quot;<span style='mso-tab-count:
+2'>                   </span>rotor</p>
+
+<p class=MsoNormal>S10BLA<span style='mso-tab-count:2'>                 </span>83-90<span
+style='mso-tab-count:1'>       </span>VIN mdl<span style='mso-tab-count:1'>  </span>&quot;S&quot;<span
+style='mso-tab-count:1'>          </span>(4X2)</p>
+
+<p class=MsoNormal style='margin-left:1.0in'>81<span style='mso-tab-count:1'>            </span>VIN
+mdl<span style='mso-tab-count:1'>  </span>&quot;S&quot;<span style='mso-tab-count:
+1'>          </span>(4X2), w/a A.B.S. ring</p>
+
+<p class=MsoNormal>GMCSPR<span style='mso-tab-count:1'>               </span>82-87</p>
+
+<p class=MsoNormal>GPRIX<span style='mso-tab-count:2'>                    </span>82-87</p>
+
+<p class=MsoNormal>MALIBU<span style='mso-tab-count:1'>               </span>82-87</p>
+
+<p class=MsoNormal>MONTE<span style='mso-tab-count:2'>                 </span>82-88</p>
+
+<p class=MsoNormal>CUTLASS<span style='mso-tab-count:1'>             </span>82-87</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>88<span
+style='mso-tab-count:1'>            </span>RWD</p>
+
+<p class=MsoNormal>PONTIA<span style='mso-tab-count:1'>                </span>82-86<span
+style='mso-tab-count:1'>       </span>Bon</p>
+
+<p class=MsoNormal>REGAL<span style='mso-tab-count:2'>                   </span>82-87</p>
+
+</div>
+
+<b><span style='font-size:10.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:auto;
+mso-break-type:section-break'>
+</span></b>
+
+<div class=Section7>
+
+<div style='border:solid windowtext 1.5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt'>
+
+<p class=MsoBodyText style='tab-stops:.5in 1.0in 1.5in 2.0in 2.5in 3.0in 3.5in 281.0pt;
+border:none;mso-border-alt:solid windowtext 1.5pt;padding:0in;mso-padding-alt:
+1.0pt 4.0pt 1.0pt 4.0pt'><b>Chevy S10 and Blazer Rear Axles (5-Lug Metric Studs)<o:p></o:p></b></p>
+
+</div>
+
+</div>
+
+<b><span style='font-size:10.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:auto;
+mso-break-type:section-break'>
+</span></b>
+
+<div class=Section8>
+
+<h1>Make<span style='mso-tab-count:2'>                      </span>Year<span
+style='mso-tab-count:1'>       </span>Description</h1>
+
+<p class=MsoNormal>S10 S15<span style='mso-tab-count:2'>                  </span>82</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>83-87<span
+style='mso-tab-count:1'>       </span>4X2</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>88-93<span
+style='mso-tab-count:1'>       </span>4X2,<span style='mso-tab-count:1'>        </span>7-1/2&quot;
+ring gear</p>
+
+<p class=MsoNormal>S10BLA<span style='mso-tab-count:2'>                 </span>83-87<span
+style='mso-tab-count:1'>       </span>4X2</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>88-90<span
+style='mso-tab-count:1'>       </span>4X2,<span style='mso-tab-count:1'>        </span>7-1/2&quot;
+ring gear</p>
+
+</div>
+
+<b><span style='font-size:10.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:auto;
+mso-break-type:section-break'>
+</span></b>
+
+<div class=Section9>
+
+<div style='border:solid windowtext 1.5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt'>
+
+<p class=MsoBodyText style='border:none;mso-border-alt:solid windowtext 1.5pt;
+padding:0in;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><b>Rear Brake Drums (5-Lug
+Steel)</b></p>
+
+</div>
+
+</div>
+
+<b><span style='font-size:10.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:auto;
+mso-break-type:section-break'>
+</span></b>
+
+<div class=Section10>
+
+<h1>Make<span style='mso-tab-count:2'>                      </span>Year<span
+style='mso-tab-count:1'>       </span>Description</h1>
+
+<p class=MsoNormal>APOLLO<span style='mso-tab-count:1'>                </span>73-74</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>75</p>
+
+<p class=MsoNormal>BUICK<span style='mso-tab-count:2'>                   </span>77</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>78-79</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>80</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>81-85</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>85</p>
+
+<p class=MsoNormal>CENTURY<span style='mso-tab-count:1'>             </span>73-74</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>75</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>78-81</p>
+
+<p class=MsoNormal>SPECIAL<span style='mso-tab-count:1'>               </span>64-69</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>70-72</p>
+
+<p class=MsoNormal>CAMARO<span style='mso-tab-count:1'>             </span>67</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>68-74</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>75-81</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>82-92</p>
+
+<p class=MsoNormal>CHEVEL<span style='mso-tab-count:2'>                 </span>64-67</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>68-72</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>73-74</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>75</p>
+
+<p class=MsoNormal>CHEVROL<span style='mso-tab-count:1'>             </span>77-85</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>86-89</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>90</p>
+
+<p class=MsoNormal>CHEVAN<span style='mso-tab-count:1'>               </span>65-66</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>67-70</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>71</p>
+
+<p class=MsoNormal>S10 S15<span style='mso-tab-count:2'>                  </span>82-84</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>85-91</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>91<span
+style='mso-tab-count:1'>            </span>SYCLONE</p>
+
+<p class=MsoNormal>FIREBI<span style='mso-tab-count:2'>                   </span>67-74</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>75-78</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>79-81</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>82-92</p>
+
+<p class=MsoNormal>S10BLA<span style='mso-tab-count:2'>                 </span>83-84</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>85-91</p>
+
+<p class=MsoNormal>CABALL<span style='mso-tab-count:1'>               </span>78</p>
+
+<p class=MsoNormal>GMCSPR<span style='mso-tab-count:1'>               </span>71-74</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>75</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>79-81</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>82-87</p>
+
+<p class=MsoNormal>GMCVAN<span style='mso-tab-count:1'>              </span>65-66</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>67-70</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>71</p>
+
+<p class=MsoNormal>GPRIX<span style='mso-tab-count:2'>                    </span>69-74</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>78-85</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>86-87</p>
+
+<p class=MsoNormal>MALIBU<span style='mso-tab-count:1'>               </span>78-81</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>82-87</p>
+
+<p class=MsoNormal>MONTE<span style='mso-tab-count:2'>                 </span>70-74</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>75</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>78-81</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>82-88</p>
+
+<p class=MsoNormal>NOVA<span style='mso-tab-count:2'>                    </span>64-66</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>67</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>68-74</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>75-79</p>
+
+<p class=MsoNormal>OLDS<span style='mso-tab-count:2'>                     </span>65-66</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>77-79<span
+style='mso-tab-count:1'>       </span>Dlta 88</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>80-85<span
+style='mso-tab-count:1'>       </span>Dlta 88</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>85<span
+style='mso-tab-count:1'>            </span>Cust Crsr</p>
+
+<p class=MsoNormal>BRAVAD<span style='mso-tab-count:1'>              </span>91</p>
+
+<p class=MsoNormal>CUTLASS<span style='mso-tab-count:1'>             </span>73-74</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>75</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>78-82</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>83-87</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>88</p>
+
+<p class=MsoNormal>F85<span style='mso-tab-count:2'>                          </span>64-72</p>
+
+<p class=MsoNormal>OMEGA<span style='mso-tab-count:2'>                 </span>73-74</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>75</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>76-78</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>79</p>
+
+<p class=MsoNormal>PHOENIX<span style='mso-tab-count:1'>              </span>77</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>78-79</p>
+
+<p class=MsoNormal>PONTIAC<span style='mso-tab-count:1'>              </span>77-79</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>80-81</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>82-85</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>86</p>
+
+<p class=MsoNormal>LEMANS<span style='mso-tab-count:1'>               </span>72</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>73-74</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>75</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>78-81</p>
+
+<p class=MsoNormal>REGAL<span style='mso-tab-count:2'>                   </span>78-87</p>
+
+<p class=MsoNormal>RIVIERA<span style='mso-tab-count:1'>                </span>79-80</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>81-85</p>
+
+<p class=MsoNormal>SKYLARK<span style='mso-tab-count:1'>             </span>75-79</p>
+
+<p class=MsoNormal>TEMPEST<span style='mso-tab-count:1'>             </span>64-66</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>67-71</p>
+
+<p class=MsoNormal>TORANA<span style='mso-tab-count:1'>              </span>79-81</p>
+
+<p class=MsoNormal>VENTURA<span style='mso-tab-count:1'>            </span>71-74</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>75</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>76-77</p>
+
+</div>
+
+<b><span style='font-size:10.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:auto;
+mso-break-type:section-break'>
+</span></b>
+
+<div class=Section13>
+
+<div style='border:solid windowtext 1.5pt;padding:1.0pt 1.0pt 1.0pt 1.0pt'>
+
+<p class=MsoBodyText style='border:none;mso-border-alt:solid windowtext 1.5pt;
+padding:0in;mso-padding-alt:1.0pt 1.0pt 1.0pt 1.0pt'><b>Rear Brake Drums (5-Lug
+Aluminum) <o:p></o:p></b></p>
+
+</div>
+
+</div>
+
+<b><span style='font-size:10.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:auto;
+mso-break-type:section-break'>
+</span></b>
+
+<div class=Section14>
+
+<h1>Make<span style='mso-tab-count:2'>                      </span>Year<span
+style='mso-tab-count:1'>       </span>Description</h1>
+
+<p class=MsoNormal>BUICK<span style='mso-tab-count:2'>                   </span>80</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>81-85</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>85</p>
+
+<p class=MsoNormal>CENTURY<span style='mso-tab-count:1'>             </span>78-81</p>
+
+<p class=MsoNormal>CAMARO<span style='mso-tab-count:1'>             </span>82-92</p>
+
+<p class=MsoNormal>CHEVROL<span style='mso-tab-count:1'>             </span>86-89</p>
+
+<p class=MsoNormal>S10 S15<span style='mso-tab-count:2'>                  </span>82-84</p>
+
+<p class=MsoNormal>FIREBI<span style='mso-tab-count:2'>                   </span>82-92</p>
+
+<p class=MsoNormal>S10BLA<span style='mso-tab-count:2'>                 </span>83-84</p>
+
+<p class=MsoNormal>CABALL<span style='mso-tab-count:1'>               </span>78</p>
+
+<p class=MsoNormal>GMCSPR<span style='mso-tab-count:1'>               </span>79-81</p>
+
+<p class=MsoNormal>GPRIX<span style='mso-tab-count:2'>                    </span>78-85</p>
+
+<p class=MsoNormal>MALIBU<span style='mso-tab-count:1'>               </span>78-81</p>
+
+<p class=MsoNormal>MONTE<span style='mso-tab-count:2'>                 </span>78-81</p>
+
+<p class=MsoNormal>OLDS<span style='mso-tab-count:2'>                     </span>80-85<span
+style='mso-tab-count:1'>       </span>Dlta 88</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>85<span
+style='mso-tab-count:1'>            </span>Cust Crsr</p>
+
+<p class=MsoNormal>CUTLASS<span style='mso-tab-count:1'>             </span>78-82</p>
+
+<p class=MsoNormal>PONTIAC<span style='mso-tab-count:1'>              </span>80-81</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>82-85</p>
+
+<p class=MsoNormal><span style='mso-tab-count:2'>                                </span>86</p>
+
+<p class=MsoNormal>LEMANS<span style='mso-tab-count:1'>               </span>78-81</p>
+
+<p class=MsoNormal>REGAL<span style='mso-tab-count:2'>                   </span>78-87</p>
+
+<p class=MsoNormal>RIVIERA<span style='mso-tab-count:1'>                </span>81-85</p>
+
+</div>
+
+<!--====================================================================-->
+<!--				Main Counter						-->
+<!--====================================================================-->
+<IMG SRC="http://www.zianet.com/cgi-bin/count.exe?dd=B|ft=1|df=v8monza_home.dat" WIDTH=0 HEIGHT=0>
+<IMG SRC="http://www.zianet.com/cgi-bin/count.exe?dd=B|ft=1|df=v8monza_5LugList.dat" WIDTH=0 HEIGHT=0>
+
+</body>
+
+</html>

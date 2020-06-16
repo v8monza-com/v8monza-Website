@@ -1,0 +1,16 @@
+SCRIPT WAS REMOVED FROM THE CATALOG NAVIGATION HTM
+
+<!--====================================================================-->
+<!--            "Last Updated" JavaScript                                               -->
+<!--====================================================================-->
+<!--	<td WIDTH=40 ALIGN=RIGHT VALIGN=BOTTOM LEFTMARGIN="0"><FONT FACE="ARIAL" STYLE="FONT-SIZE:8pt;"><B>
+Updated:<BR>
+        <SCRIPT LANGUAGE="JavaScript">
+
+                 var theDate =""  
+                 theDate = document.lastModified
+                         document.write(theDate);
+                         document.write();
+
+</SCRIPT></B></FONT>
+-->

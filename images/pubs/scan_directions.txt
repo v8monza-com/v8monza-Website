@@ -1,0 +1,9 @@
+Book Covers
+Scan at 50 pixels (resolution) 
+once cropped, resize to 58%.
+
+******************************
+Book pages
+200 pixels per inch (78 pixels per cm)
+
+******************************

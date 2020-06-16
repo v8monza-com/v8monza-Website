@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /catalog/scripts/
+Disallow: /documents/
+Disallow: /download/
+Disallow: /Files/
+Disallow: /images/pubs/
+Disallow: /images/tech/
+Disallow: /registry/
+Disallow: /voodoo_perf/

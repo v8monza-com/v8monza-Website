@@ -1,0 +1,12 @@
+The SBC (V8 H-Body) and the L4 use completely different bellhousings.  
+
+GM Group 0.683
+L4 (140)                  3983415
+L4 (122)                  6270026
+V6 (196,231)            1249599
+V8 (262,305,350)     354496 or 360162
+
+Aftermarket
+Lakewood Scattershield P/N 15010
+
+
